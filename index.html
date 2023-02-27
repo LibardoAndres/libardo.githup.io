@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de cantidad de paneles solares para baterias en hogar</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="oper.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Syloti+Nagri&family=Roboto&display=swap" rel="stylesheet">
+ </head>
+
+ <body>
+
+        
+        <style>
+            body{
+                background-color: #8F141B;
+            }
+            .img1{
+                margin-bottom: 60px;
+            }
+            .img2{
+                margin-bottom: 60px;
+            }
+        </style>
+        
+            <div class="img1">
+                <div style="text-align:center;">
+                <img src="Captura.PNG" alt="">
+            </div>
+        </div>
+            <div class="name">
+            <div class="content">
+                <p class="p-1">Programa de Ingeniería Eléctronica</p>
+                <p class="p-2"> Sistema Fotovoltaico</p>
+            </div>
+            </div>
+            
+            <div class="img2">
+            <div style="text-align:center;">
+                <img src="Captura1.PNG" alt="">
+            </div>
+            </div>
+        
+           
+            <div class="info">
+                <p class="tituloseccion">descripccion del sistema: Un panel fotovoltaico (PV), comúnmente llamado panel solar, contiene células PV que absorben la luz del sol y convierten la energía solar en electricidad.</p>
+                <p class="tituloinfo">Objetivo: </p>
+                <p class="infoinfo">Este programa consiste en determinar  la potencia del sistema teniendo  dos baterias en serie y ademas,  hallar su respectivo controlador.</p><br><br>
+                <p class="tituloinfo">parametros a tener en cuenta:</p><br>
+                <p class="infoinfo">1) la corriente y el voltaje de las baterias debe ser el mismo en las dos para tener un correcto funcionamiento del sistema.</p><br>
+                <p class="infoinfo">2) la carga se debe hacer maximo a un 25% .</p><br><br>
+                <p class="tituloinfo">pasos a seguir:</p><br>
+                <p class="infoinfo">1) ingresar el valor de corriente de las baterias .</p><br>
+                <p class="infoinfo">2) se determina el valor del controlador con los valores obtenidos de la corriente .</p><br>
+                <p class="infoinfo">3) ingresar el valor del voltaje de las baterias .</p><br>
+                <p class="infoinfo">4) se determina el valor del voltaje de el controlador .</p><br>
+                <p class="infoinfo">5) se determina la potencia del sistema .</p><br>
+               
+            </div>
+           <table style="width: 100">
+            <tr>
+            <td>
+            <Form name="MyForm">
+                <h2>CÁLCULOS ARITMETICOS</h2>
+                <h3>Ingresar corriente de bateria 1 en Ah:</h3>
+                <input type="text" name="numero1" size="2" style="text-align:center">
+                <h3>Ingresar corriente de bateria 2 en Ah:</h3>
+                <input type="text" name="numero2" size="2" style="text-align:center"><br><br>
+                <h3 id="resultado de la corriente" >el resultado de la corriente  es:</h3>
+                <h3 id="resultado de la corriente de el controlador" >el resultado de la corriente  de el controlador  es:</h3>
+                <h3>Ingresar voltaje de bateria 1 en V:</h3>
+                <input type="text" name="numero3" size="2" style="text-align:center">
+                <h3>Ingresar voltaje de bateria 2 en V:</h3>
+                <input type="text" name="numero4" size="2" style="text-align:center"><br><br>
+                <h3 id="resultado de el voltaje" >el resultado de el voltaje  es:</h3>
+                <h3 id="resultado de el voltaje de el controlador" >el resultado de el voltaje  de el controlador es:</h3>
+                <input type="button" class="btn btn-info" value="RESULTADO" onclick="operacion()"><br>
+                <input type="button" class="btn btn-info" value="RESULTADO2" onclick="operacion2()"><br>
+                <h3 id="resultado de la potencia del sistema" >el resultado de la potencia del sistema es:</h3>
+                
+        </Form>
+    </td>
+    </tr>
+    </table><br>
+            <video muted autoplay loop>
+                <source src="Fondo.mp4" type="video/mp4">
+            </video>
+
+            <audio controls="true" autoplay="true" src="y2mate.com - Alan Walker  Spectre Privated NCS Release.mp3"></audio>
+        
+        </div>
+        
+    
+ </body>
+ </html>
